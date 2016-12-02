@@ -23,7 +23,10 @@ and what you should write is the sayHi function that makes the code above work,
 */
 
 
-here is a test
+var first = function(arr, cb){
+  return cb(arr[0]);
+  dd
+}
 
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
