@@ -68,7 +68,6 @@ multiply(4, 3, function(answer){
 })
 
 
-//here are my tests
 
 
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
