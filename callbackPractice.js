@@ -50,7 +50,6 @@ last(names, function(lastName){
 
 
 
-//here is a test to get this to works
 
 /* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
 
