@@ -25,7 +25,6 @@ and what you should write is the sayHi function that makes the code above work,
 
 var first = function(arr, cb){
   return cb(arr[0]);
-  dd
 }
 
 
@@ -41,7 +40,9 @@ first(names, function(firstName){
 
 
 
-  //Code Here for last
+function last(arr, cb){
+    return cb(arr[arr.length -1]);
+  }
 
 last(names, function(lastName){
   console.log('The last name in names is ' + lastName);
@@ -58,7 +59,9 @@ last(names, function(lastName){
 
 
 
-  //Code Here for multiply
+function multiply(arr1, arr2, cb){
+  return cb(arr1 * arr2);
+}
 
 multiply(4, 3, function(answer){
   console.log('The answer is ' + answer); //should console.log 12
